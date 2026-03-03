@@ -5,7 +5,7 @@
 
 // Initialize objects
 Adafruit_MPU6050 mpu;
-LiquidCrystal_I2C lcd(0x27, 16, 2); // Change 0x27 if your scanner found a different address
+LiquidCrystal_I2C lcd(0x3F, 16, 2); // Change 0x3F if your scanner found a different address
 
 void setup() {
   Serial.begin(115200);
